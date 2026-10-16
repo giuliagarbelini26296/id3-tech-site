@@ -1,0 +1,21 @@
+ID3 TECH — SITE INSTITUCIONAL, REVISÃO DE CONTATOS / LOGO
+
+Conteúdo: index.html, og-image.png, robots.txt, sitemap.xml.
+Este pacote é a versão HTML estática do site institucional encontrado no ZIP original.
+Não inclui os arquivos misturados do projeto de CV do Alex, Next.js compilado ou arquivos internos de Git.
+
+O QUE MUDOU
+1. Logo do cabeçalho, rodapé e favicon: é carregada da logo publicada na Central de Links: https://links.id3.com.br/assets/id3-simbolo.png (recurso externo necessário)
+2. E-mail institucional: contato@id3.tech (inclusive JSON-LD).
+3. WhatsApp comercial: +55 11 98245-7213.
+4. Links de Fast Assessment, Instagram e LinkedIn.
+5. Formulário antes apontava para endpoint Formspree genérico (xcontato) sem comprovação de configuração; agora, com o clique do visitante, abre uma mensagem pré-preenchida no WhatsApp, exigindo confirmação de envio no próprio WhatsApp. Não há captura de leads por servidor nem mensagem enviada em silêncio.
+6. Todo o restante do conteúdo/estilo/terminal animado preservado. Google Analytics original mantido.
+
+ATENÇÃO ANTES DE PUBLICAR
+- Abrir index.html no navegador e testar computador e celular.
+- Confirmar que a logo exibida é a identidade visual aprovada.
+- Validar links e comportamento do WhatsApp em aparelho real.
+- Se for necessário formulário automático por e-mail, configurar um serviço/backend apropriado e substituir o fluxo do WhatsApp; não inventar endpoint.
+- NÃO publicar por cima do site atual antes da aprovação. Usar domínio de teste com Render ou Hostinger.
+- Quando for ao ar no domínio oficial, conferir Google Analytics, Search Console, sitemap e DNS.
